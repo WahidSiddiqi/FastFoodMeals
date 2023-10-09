@@ -28,12 +28,19 @@ As a user I want to...
   -Log in and out
   - Create meal plans
   - Use the calorie calculator
-  - Macro calculator
-  - Use the filter functionality to search for meals based on proximity to desired calories/macros
+  - Use the Macro calculator
   - Search meals
+  - Use the filter functionality to search for meals based on proximity to desired calories/macros
 
 ### Icebox features
 Can't think of any for now
+
+## Wireframes
+
+
+## ERD
+
+<img width="931" alt="Screenshot 2023-10-09 at 6 29 15 AM" src="https://github.com/WahidSiddiqi/FastFoodMeals/assets/12146715/8e951eaa-6ffa-475b-83c3-8f2bd9272f6a">
 
     
   
