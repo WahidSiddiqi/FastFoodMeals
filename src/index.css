@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.search-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;;
+}
+
+.search-results-container {
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 6px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.search-result-headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-result-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-fixed {
+  max-width: 100px;
+}
+
+.search-result-thumbnail {
+  max-width: 90px;
+}
+
+.add-item-label {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.add-item-unit {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.calories-text {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.items-table-cell {
+  border: 1px solid black;
+}
+
+.actions-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
