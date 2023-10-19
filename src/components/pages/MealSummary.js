@@ -58,6 +58,7 @@ const AddItemToMealPage = (props) => {
                     <th>Brand</th>
                     <th>Item</th>
                     <th>Qty</th>
+                    <th>Calories</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
@@ -70,6 +71,7 @@ const AddItemToMealPage = (props) => {
                         </td>
                         <td>{item?.nix_meta_data?.food_name}</td>
                         <td>{item?.qty}</td>
+                        <td>{item?.nix_meta_data?.nf_calories}</td>
                         <td>
                           <div className="actions-buttons-container">
                             <Button variant="danger" type="submit">
@@ -105,46 +107,6 @@ const AddItemToMealPage = (props) => {
             </div>
           </>
         )}
-
-        {/* <Form onSubmit={onAddItemToMeal}>
-          {loading && <div>Loading</div>}
-          {!loading && (
-            <>
-              <div>
-                <span className="add-item-label">Brand:</span>
-                <span className="add-item-unit">{item?.brand_name}</span>
-              </div>
-              <div>
-                <span className="add-item-label">Name:</span>
-                <span className="add-item-unit">{item?.food_name}</span>
-              </div>
-              <div>
-                <span className="add-item-label">Calories:</span>
-                <span className="add-item-unit">{item?.nf_calories}</span>
-              </div>
-              <div>
-                <span className="add-item-label">Total Carbs:</span>
-                <span className="add-item-unit">
-                  {item?.nf_total_carbohydrate} grams
-                </span>
-              </div>
-              <div>
-                <span className="add-item-label">Total Protein:</span>
-                <span className="add-item-unit">{item?.nf_protein} grams</span>
-              </div>
-              <div>
-                <span className="add-item-label">Total Fat:</span>
-                <span className="add-item-unit">
-                  {item?.nf_total_fat} grams
-                </span>
-              </div>
-            </>
-          )}
-          <hr />
-          <Button variant="primary" type="submit">
-            Add Item
-          </Button>
-        </Form> */}
       </div>
     </div>
   );
